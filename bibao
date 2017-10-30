@@ -1,0 +1,8 @@
+const func = function() {
+  return function fun1() {
+    return function fun2() {
+    };
+  };
+};
+const result = func();
+console.log(result.toString());
