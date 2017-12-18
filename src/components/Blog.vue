@@ -121,6 +121,9 @@ export default {
          { name: 'Tomcat', count: 6 },
          { name: 'PHP', count: 11 },
       ],
+      hotTags: [
+        {},
+      ],
     };
   },
   methods: {
